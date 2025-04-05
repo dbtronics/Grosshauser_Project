@@ -1,22 +1,9 @@
 #include <Wire.h>
 
 // Define MPR121 data and clock pins
-// MPR121_0
+// MPR121_X
 #define SDA 21  // MPR121 Data pin (SDA)
 #define SCL 22 // MPR121 Clock pin (SCL)
-
-// MPR121_1
-// #define SDA 27  // MPR121 Data pin (SDA)
-// #define SCL 14 // MPR121 Clock pin (SCL)
-
-// MPR121_2
-// #define SDA 27  // MPR121 Data pin (SDA)
-// #define SCL 14 // MPR121 Clock pin (SCL)
-
-// MPR121_3
-// #define SDA 27  // MPR121 Data pin (SDA)
-// #define SCL 14 // MPR121 Clock pin (SCL)
-
 
 void setup() {
   Serial.begin(115200);
